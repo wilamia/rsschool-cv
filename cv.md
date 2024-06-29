@@ -6,20 +6,18 @@
 - Email: eseniya.wi@gmail.com
 - Discord: cюнечка (@wilamia)
 ## Summary
-###
 Hardworking programmer ready to start an internship as a Front-End
 Developer at a technological corporation. I’m quickly learn new 
 information and use this in the future.
 ## Hard skills
-###
 - Python
 - C++
 - HTML/CSS
 - UI/UX design
 - Photoshop | Word | Excel | Sony Vegas Pro | Figma | Canva | PowerPoint | AutoCAD | InDesign
 ## Code examples
-###
 - Python
+  
 ```python
 import pandas as pd
 import numpy as np
@@ -36,6 +34,7 @@ s = pd.Series(np.random.randn(4), index=arrays)
 print(s)
 ```
 - C++
+
 ``` C++
 System::Void Kursach::Registration::button1_Click(System::Object^ sender, System::EventArgs^ e){
 	Admin^ form = gcnew Admin;
@@ -83,7 +82,6 @@ System::Void Kursach::Registration::button1_Click(System::Object^ sender, System
 }
 ```
 ## Education
-###
 **Diploma in Computer Science  
 09/2022 – nowadays**  
 Minsk Radioengineering College, Belarus
@@ -92,7 +90,6 @@ Minsk Radioengineering College, Belarus
 - Got skills in drawing different diagrams
 - Got qualification of 5th category as operator of electronic computing machine
 ## Expirience
-###
 **Rolling Scopes  
 06/2024**  
 - Learned how to work with Markdown & Git
