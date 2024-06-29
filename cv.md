@@ -1,6 +1,5 @@
 # **KSENIYA** PASEKA 
 ## Contact information:
-###  
 - Location: Minsk, Belarus
 - Phone: +375295045380  
 - Email: eseniya.wi@gmail.com
