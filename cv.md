@@ -4,6 +4,7 @@
 - Phone: +375295045380  
 - Email: eseniya.wi@gmail.com
 - Discord: cюнечка (@wilamia)
+- GitHub: [Kseniya](https://github.com/wilamia)
 ## Summary
 Hardworking programmer ready to start an internship as a Front-End
 Developer at a technological corporation. I’m quickly learn new 
