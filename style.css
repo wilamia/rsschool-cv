@@ -1,0 +1,290 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.559);
+    font-family: Deledda;
+    font-weight: bold;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    right: 20px;
+}
+.nav-item-header{
+    display: flex;
+    justify-content: center;
+    right: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.section-title{
+    color: rgb(75, 74, 76);
+    font-family: Deledda;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.section#profile{
+    width: 1000px;
+    margin: 0;
+}
+.section-title#contacts{
+    color: rgb(75, 74, 76);
+    font-family: Deledda;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.section-information#summary{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: relative;
+    left: 25px;
+    min-width: 200px;
+}
+.contacts-list{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    left: 130px;
+    white-space: pre-wrap;
+}
+.contacts-list li{
+    float: left;
+    list-style: none;
+}
+.contact{
+    position: relative;
+    left: -110px;
+}
+.section-information#name{
+    font-family: Deledda;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: -30px;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: relative;
+    left: 25px;
+}
+.section-information#job{
+    color: rgb(75, 74, 76);
+    font-family: Deledda;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: relative;
+    left: 25px;
+}
+.section#skills{
+    width: 800px;
+    margin: 0;
+}
+.code-examples{
+    float:right;
+}
+.skills{
+    float: left;
+}
+.skills-list{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.language-name{
+    color: rgb(0, 0, 0);
+    font-family: Deledda;
+    font-size: 18px;
+}
+.language-name#python{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.language-name#cpp{
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+.section#experience{
+    width: 800px;
+    margin: 0;
+    position: relative;
+}
+.place{
+    color: rgb(0, 0, 0);
+    font-family: Deledda;
+    font-size: 22px;
+    font-weight: 700;
+}
+.date{
+    color: rgb(0, 0, 0);
+    font-family: Deledda;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section#languages{
+    width: 800px;
+    margin: 0;
+}
+.section#education{
+    width: 800px;
+    margin: 0;
+}
+.section#code{
+    grid-row: 2/4
+}
+.grade{
+    color: rgb(0, 0, 0);
+    font-family: Deledda;
+    font-size: 22px;
+}
+.place#college{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.nav-item-header a:hover {
+    display: block;
+    padding: 5px 5px;
+    background-color: #ff001e24;
+    border-radius: 5px;
+}
+.nav-item a:hover {
+    color: #00a2ff;
+}
+.section {
+    width: 50%;
+}
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+} 
+.link:hover {
+    color: #5d7260;
+}
+.images{
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: left;
+}
+.images img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    margin: 0;
+    float: left;
+}
+header{
+    bottom: -10px;
+    height: 80px;
+    border-bottom: 3px solid #000000;
+}
+footer{
+    margin-top: 20px;
+    height: 150px;
+    border-top: 3px solid #000000;
+}
+.logo{
+    position: relative;
+    left: -10px;
+    top: 3px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+.logo-rs{
+    position: relative;
+    left: -10px;
+    top: 10px;
+    height: 40px;
+}
+.created-time{
+    font-family: Deledda;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
+@font-face {
+    font-family: Deledda;
+    src: url("assets/fonts/Deledda\ Closed\ Thin.ttf");
+    src: url("assets/fonts/Deledda\ Open\ Light.ttf");
+    src: url("assets/fonts/Deledda\ Closed\ Black.ttf");
+}
+@media (max-width: 1200px) {
+    .section#profile {
+        width: 75%;
+    }
+    .section-information#job{
+        font-size: 16px;
+    }
+    .section#skills {
+        width: 50%;
+    }
+    .section#experience {
+        width: 50%;
+    }
+    .section#languages {
+        width: 50%;
+    }
+    .section#education {
+        width: 50%;
+    }
+    .contact{
+        position: relative;
+        left: -3px;
+    }
+}
