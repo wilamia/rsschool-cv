@@ -1,11 +1,127 @@
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="ru">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+  <head>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="assets/favicon.ico" >
+  </head>
+    <header class="main-header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item-header"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item-header"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item-header"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item-header"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item-header"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item-header"><a href="#code" class="nav-link">Code</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class = "container">
+      <section class="section" id="profile">
+        <h1 class = "section-title">Profile</h1>
+        <img src="assets/img/me.jpg" alt="my photo" class = "images">
+        <h2 class = "section-information" id = "name">Kseniya Paseka</h2>
+        <h3 class = "section-information" id = "job">Front-End Developer</h3>
+        <h4 class = "section-information" id = "summary">Hardworking programmer ready to start an internship as a Front-End
+          Developer at a technological corporation. Im quickly learn new
+          information and use this in the future.</h4>
+        <h3 class = "section-title" id = "contacts">Contacts</h3>
+<ul class="contacts-list">
+  <li class = "contact">Address: Minsk, Belarus</li>
+  <li class = "contact">Email: eseniya.wi@gmail.com</li>
+  <li>Phone: +375295045380</li>
+  <li>Discord: cюнечка (@wilamia)</li>
+</ul>
+      </section>
+      <aside class = "code-examples">
+        <h1 class = "section-title">Code Examples</h1>
+          <h2 class = "language-name" id = "python">Python</h2>
+          <pre><code>
+    import pandas as pd
+    import numpy as np
+    data = pd.Series({
+        'artist': ['Mr. Bist', 'Lana Del Ray'],
+        'dateOfBirth': ['7.05.1998', '21.06.1985'],
+        'country': ['USA', 'USA']})
+    arrays = [
+        np.array(['USA', 'USA']),
+        np.array(['Mr. Bist', 'Lana Del Ray']),
+        np.array(['7.05.1998', '21.06.1985']),
+    ]
+    s = pd.Series(np.random.randn(4), index=arrays)
+    print(s)
+          </code></pre>
+          <h3 class = "language-name" id ="cpp">C++</h3>
+          <pre><code>
+    #include &lt;iostream&lt;
+    using namespace std;
+    int main(){
+    int chislo = 0;
+    int max = 0;
+    cout &lt;&lt; "Введите числа \n";
+    while (1){
+      cout &lt;&lt; "-> ";
+      cin >> chislo;
+      if (chislo == 0){
+          break;
+      }
+      if (chislo > max && chislo > 0){
+          max = chislo;
+      }
+    }
+    cout &lt;&lt; "Максимальное число: " &lt;&lt;
+    max &lt;&lt; '\n';
+    return 0;
+    }</code></pre>
+      </aside>
+      <section class="section" id="skills">
+        <h1 class = "section-title">Skills</h1>
+        <ul class = "skills-list">
+          <li>Python</li>
+          <li>C++</li>
+          <li>HTML/CSS</li>
+          <li>UI/UX design</li>
+          <li>Photoshop | Word | Excel</li>
+          <li>Sony Vegas Pro | Figma</li>
+          <li>Canva | PowerPoint | AutoCAD</li>
+          <li>InDesign</li>
+      </ul>
+      </section>
+<section class="section" id="experience">
+  <h1 class = "section-title">Experience</h1>
+  <h2 class = "place">Rolling Scopes</h2>
+  <h3 class = "date">Jul 2024</h3>
+  <ul class = "skills-list">
+      <li>Learned how to work with Markdown & Git</li>
+      <li>Did a <a href="https://github.com/wilamia/rsschool-cv/blob/gh-pages/cv.md">CV</a></li>
+  </ul>
+</section>
+<section class="section" id="languages">
+  <h1 class = "section-title">Languages</h1>
+  <ul class = "skills-list">
+    <li>Russian - native speaker</li>
+    <li>English - B1+</li>
+</ul>
+</section>
+<section class="section" id="education">
+  <h1 class = "section-title">Education</h1>
+  <h3 class = "grade">Diploma in Computer Science</h3>
+  <h4 class = "place" id ="college">Minsk Radioengineering College, Belarus</h4>
+  <h5 class = "date">09/2022 – nowadays</h5>
+  </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class = "container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="https://github.com/wilamia" class="nav-link">GitHub</a><img src="assets/img/GitHub.png" alt="Logo of GitHub" class = "logo"></li>
+        <li class="nav-item"><a href="https://rs.school/courses/javascript-ru" class="nav-link">JavaScript / Front-end Course</a><img src="assets/img/RS.svg" alt="Logo of RS School" class = "logo"></li>
+      </ul>
+      <h2 class = "created-time">2024</h2>
+    </div>
+    </footer>
+  </body>
 </html>
